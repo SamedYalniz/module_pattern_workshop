@@ -1,6 +1,6 @@
 (function(exports){
-  function smiley(){
-    return ":)";
+  function smiley(string){
+    return string + ":)";
   };
   exports.smiley = smiley;
 })(this);
